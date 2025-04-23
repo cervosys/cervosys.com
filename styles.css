@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', 'Helvetica Neue', 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #002B50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+.logo img {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.company-name {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-size: 1.2em;
+    color: #5A5A5A;
+    margin-bottom: 20px;
+}
+
+.countdown {
+    background-color: #E6F0FF;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    color: #FF8C42;
+}
+
+@media (max-width: 600px) {
+    .company-name {
+        font-size: 2em;
+    }
+
+    .tagline {
+        font-size: 1em;
+    }
+
+    .countdown {
+        font-size: 1.2em;
+    }
+}
